@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Игри розуму</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">   
+    
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-2 col-md-2 logo_header">
+            <img src="img/puzzle.jpg" alt="Header Logotype">
+          </div>
+          <div class="col-xs-10 col-sm-6 col-md-5 col-md-offset-1 header_address">
+            <div class="header_info">
+              <span class="header_info_city">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              м.Львів готель "Львів".
+              </span>
+              <span class="header_info_date">
+                <i class="fa fa-calendar" aria-hidden="true"></i> 27 листопада 2016
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 header_phones">
+            <a href="tel:+380971234567" class="kyivstar"><span class="header_phone">+38(097)</span> 123-45-67</a>            
+            <a href="tel:+380971234567" class="life"><span class="header_phone">+38(093)</span> 123-45-67</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-8 main_info">
+            <p>Майстер-клас</p>
+            <h1>Ігри розуму</h1>
+            <br>
+            <ul>
+              <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Дізнайтесь що таке підсвідомість</li>
+              <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Зрозумійте як вона впливає на ваше життя</li>
+              <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Навчіться керувати нею</li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-4 main_form">
+            <p>Залишити заявку, щоб забронювати місце просто зараз</p>
+            <form action="send.php" method="POST">
+              <input type="hidden" name="form" value="Форма на головному екрані">
+              <input type="text" minlength="2" maxlength="20" id="input-name" required="required" placeholder="Ім'я">
+              <input type="tel" id="input-phone" required="required" placeholder="Телефон" name="phone"  >
+              <input type="email" id="input-email" required="required" placeholder="Email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+              <p id="price">Ціна участі в майстер-класі <span>100 грн.</span></p>
+              <smal>*-кількість місць обмежена</smal>
+              <button type="submit">
+                Відправити заявку              
+              </button>
+            </form>
+            
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="for_whom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Для Вас буде корисний даний майстер-клас, якщо</h2>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-1">
+            <img src="img/for_whom-1.jpg" alt="for_whom">
+          </div>
+          <div class="col-xs-9 col-sm-4 col-md-3 list">
+            <h3>Людина і гроші</h3>
+            <ul class="fa-ul whom_ul">
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet.
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-1">
+            <img src="img/for_whom-3.jpg" alt="for_whom">
+          </div>
+          <div class="col-xs-9 col-sm-4 col-md-3 list">
+            <h3>Людина і здоров'я</h3>
+            <ul class="fa-ul whom_ul">
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-1">
+            <img src="img/for_whom-2.jpg" alt="for_whom">
+          </div>
+          <div class="col-xs-9 col-sm-4 col-md-3 list">
+            <h3>Людина і відношення</h3>
+            <ul class="fa-ul whom_ul">
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit.
+              </li>
+              <li> <i class="fa-li fa fa-angle-right"></i>
+                Lorem ipsum dolor sit.
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="row text-center">
+          <h2>Що Ви дізнаєтесь на майстер-класі</h2>
+          <div class="col-md-4">
+            <div id="circle-1">
+              <h1>1</h1>
+              <h3>Історії</h3>
+              <p>Ви почеєте історії людей які вирішили...</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div id="circle-2">
+              <h1>2</h1>
+              <h3>Досвід</h3>
+              <p>Отримайте новий досвід в створенні своєї...</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div id="circle-3">
+              <h1>3</h1>
+              <h3>Інструменти</h3>
+              <p>Дізнайтесь про новий ефективний інструмент...</p>
+            </div>
+          </div>
+        </div>
+        <div class="row experience_form">
+          <div class="col-xs-12 col-sm-6 col-md-12 sen_form">
+            <h4>Зареєструйтесь на майстер клас "Ігри розуму" просто зараз</h4>
+            <form action="send.php" method="POST">
+            <input type="hidden" name="form" value="Форма">
+              <div class="col-md-3 experience_input">
+                <input type="text" id="experience_input-name" required="required" placeholder="Ім'я">              
+              </div>
+              <div class="col-md-3 experience_input">
+                <input type="tel" id="experience_input-phone" required="required" placeholder="Телефон">
+              </div>
+              <div class="col-md-3 experience_input">
+                <input type="email" id="experience_input-email" required="required" placeholder="Email"> 
+              </div>
+              <div class="col-md-3 experience_input">
+                <button type="submit">
+                  Відправити заявку              
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row text-center what_get">
+          <h2>Що Ви отримаєте на майстер класі</h3>
+          <div class="col-md-4">
+            <img src="img/experience-people.jpg" alt="people" class="img-responcive">
+            <p>Люди (суспільство)</p>
+            <p>Ви потрапите в оточення позитивно...</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/experience-tools.jpg" alt="tools" class="img-responcive">
+            <p>Інструменти</p>
+            <p>Отримаєте перші навики роботи з підсвідомістю...</p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/experience-gift.jpg" alt="gifts" class="img-responcive">
+            <p>Подарунок</p>
+            <p>Всі учасники отрмають подарунок...</p>
+          </div>
+        </div>
+        </div>
+      </div>      
+    </section>
+
+    <section id="speakers">
+      <div class="container">
+        <div class="row">
+          <h2>Спікери майстер класу</h2>
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <div class="col-md-3">
+                  <img src="img/speakers/speaker-1.jpg" alt="Speaker-1" class="img-responcive img-circle">
+                </div>
+                <div class="col-md-8 col-md-offset-1">
+                  <h3>Дженсен Эклз</h3>
+                  <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quis!</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, libero!</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, consectetur.</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, suscipit!</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-3">
+                  <img src="img/speakers/speaker-1.jpg" alt="Speaker-1" class="img-responcive img-circle">
+                </div>
+                <div class="col-md-8 col-md-offset-1">
+                  <h3>Дженсен Эклз</h3>
+                  <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quis!</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, libero!</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, consectetur.</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, suscipit!</li>
+                    <li><i class="fa-li fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                  </ul>
+                </div>
+              </div>              
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feedback">
+      <div class="container">
+        <div class="row">
+          <h2>Відгуки учасників які брали участь в програмі "Puzzle"</h2>
+          <div class="col-sm-4 col-md-4">
+            <iframe width="100%" height="230" src="https://www.youtube.com/embed/zXH6fhueO3I?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <h4>Волтер</h4>
+            <small>51 рік</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odio aliquid, distinctio numquam similique suscipit, ab quis accusantium tempore. Iure qui animi reprehenderit alias, enim reiciendis placeat voluptas debitis accusantium!</p>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <iframe width="100%" height="230" src="https://www.youtube.com/embed/zXH6fhueO3I?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <h4>Волтер</h4>
+            <small>51 рік</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odio aliquid, distinctio numquam similique suscipit, ab quis accusantium tempore. Iure qui animi reprehenderit alias, enim reiciendis placeat voluptas debitis accusantium!</p>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <iframe width="100%" height="230" src="https://www.youtube.com/embed/zXH6fhueO3I?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <h4>Волтер</h4>
+            <small>51 рік</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odio aliquid, distinctio numquam similique suscipit, ab quis accusantium tempore. Iure qui animi reprehenderit alias, enim reiciendis placeat voluptas debitis accusantium!</p>
+          </div>               
+        </div>
+        <div class="row feedback_form col-xs-12 col-sm-6 col-sm-offset-3 col-md-12 col-md-offset-0">
+          <h4 class="text-center">Зареєструйтесь на майстер клас "Ігри розуму" просто зараз</h4>
+          <form action="send.php" method="POST">
+          <input type="hidden" name="form" value="Форма">
+            <div class="feedback_input col-md-3">
+              <input type="text" id="feedback_input-name" required="required" placeholder="Ім'я">              
+            </div>
+            <div class="feedback_input col-md-3">
+              <input type="tel" id="feedback_input-phone" required="required" placeholder="Телефон">
+            </div>
+            <div class="feedback_input col-md-3">
+              <input type="email" id="feedback_input-email" required="required" placeholder="Email"> 
+            </div>
+            <div class="feedback_input col-md-3">
+              <button type="submit">
+                Відправити заявку              
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="place">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4  place_div">
+            <h3>Місце зустрічі</h3>
+            <span class="place_info_city">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            м.Львів готель "Львів".
+            </span>
+            <br>
+            <span class="place_info_date">
+              <i class="fa fa-calendar" aria-hidden="true"></i> 27 листопада 2016
+            </span>            
+          </div>          
+        </div>
+      </div>
+    </section>
+
+    <section id="canvas1" class="map">
+      <div class="container-fluid">
+        <div class="row">
+          <iframe id="map_canvas1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.285593923246!2d24.014411051482107!3d49.83709107929434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6cfeaed2ad%3A0x21a8bb24a48870c3!2sPremier+Hotel+Dnister!5e0!3m2!1suk!2sua!4v1478455507805" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h1>Почни міняти своє життя просто зараз</h1>
+          </div>
+          <div class="col-sm-6 col-md-4 img-responcive hidden-xs">
+            <img src="img/puzzle.jpg" alt="Puzzle">
+          </div>
+          <div class="col-sm-6 col-md-4 footer_form">
+            <p>Залишити заявку, щоб забронювати місце просто зараз</p>
+            <form action="send.php" method="POST">
+              <input type="hidden" name="form" value="Форма в підвалі">
+              <input type="text" id="footer_input-name" required="required" placeholder="Ім'я">
+              <input type="tel" id="footer_input-phone" required="required" placeholder="Телефон">
+              <input type="email" id="footer_input-email" required="required" placeholder="Email">
+              <p id="price">Ціна участі в майстер-класі <span>100 грн.</span></p>
+              <smal>*-кількість місць обмежена</smal>
+              <button type="submit">
+                Відправити заявку              
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="row footer_info">          
+          <div class="col-sm-6 col-md-6 footer_address">
+            <span class="footer_info_city">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            м.Львів готель "Львів".
+            </span>
+            <span class="footer_info_date">
+              <i class="fa fa-calendar" aria-hidden="true"></i> 27 листопада 2016
+            </span>                       
+          </div>
+          <div class="col-sm-6 col-md-6 footer_phones">
+             <a href="tel:+380971234567" class="footer_phone_kyivstar"><span >+38(097)</span> 123-45-67</a>
+            <a href="tel:+380971234567" class="footer_phone_life"><span>+38(093)</span> 123-45-67</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script src="js/circle-progress.min.js"></script>      
+
+    <script>
+        $('#circle-1').circleProgress({
+        value: 0.33,
+        size: 75,
+        startAngle: 4.75,
+        fill: {
+         color: "#ffffff"
+        }
+      });
+    </script>
+
+    <script>
+        $('#circle-2').circleProgress({
+        value: 0.66,
+        size: 75,
+        startAngle: 4.75,
+        fill: {
+         color: "#ffffff"
+        }
+      });
+    </script>
+
+    <script>
+        $('#circle-3').circleProgress({
+        value: 1,
+        size: 75,
+        startAngle: 4.75,
+        fill: {
+         color: "#ffffff"
+        }
+      });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            // you want to enable the pointer events only on click;
+
+            $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none on doc ready
+            $('#canvas1').on('click', function () {
+                $('#map_canvas1').removeClass('scrolloff'); // set the pointer events true on click
+            });
+
+            // you want to disable pointer events when the mouse leave the canvas area;
+
+            $("#map_canvas1").mouseleave(function () {
+                $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+            });
+        });
+    </script>
+
+    <script src="js/jquery.maskedinput.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $.mask.definitions['~'] = "[+-]";
+            $("#input-phone").mask("+38(999) 999-99-99");
+            $("#experience_input-phone").mask("+38(999) 999-99-99");
+            $("#feedback_input-phone").mask("+38(999) 999-99-99");
+            $("#footer_input-name").mask("+38(999) 999-99-99"); 
+        });
+      
+    </script>
+  </body>
+</html>

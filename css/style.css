@@ -1,0 +1,524 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,400i,700';
+/*============    Main    ===========*/
+.bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.bold_m {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.med {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+.med_m {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+.light {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
+.italic {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+a:focus {
+  text-decoration: none;
+  color: #fff;
+  background: inherit;
+  outline: none;
+}
+#wrapper {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  min-height: 100%;
+  height: auto!important;
+  height: 100%;
+  margin: 0 auto -100px;
+  padding-bottom: 100px;
+  background: white;
+}
+/*============    Головний екран    ===========*/
+.background-top {
+  background: url("../img/lviv-background.jpg");
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.background-top .logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background: rgba(255, 165, 0, 0.7);
+  border-radius: 0 0 5px 5px;
+  -webkit-transition: background 0.7s linear;
+  -moz-transition: background 0.7s linear;
+  -o-transition: background 0.7s linear;
+  transition: background 0.7s linear;
+}
+.background-top .logo:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background: #ff8e29;
+}
+.background-top .navbar .navbar-toggle .icon-bar {
+  background: #ff8e29;
+  height: 3px;
+  width: 25px;
+}
+.background-top #menu {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+.background-top #menu-ul {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-right: 23px;
+}
+.background-top #menu-ul li {
+  display: inline-block;
+}
+.background-top #menu-ul li a {
+  color: #696969;
+  padding: 10px 20px;
+}
+.background-top #menu-ul li a:hover {
+  background: none;
+  color: #ff8e29;
+}
+.background-top #menu-ul li a:focus {
+  background: transparent;
+}
+.background-top .icon-social {
+  font-size: 20px;
+  -moz-transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+.background-top .icon-social:hover {
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.background-top #button-style {
+  margin-bottom: 0;
+}
+.background-top h1 {
+  position: relative;
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #1d1c1c;
+  text-shadow: 0px 2px 1px rgba(224, 223, 223, 0.5);
+  width: 45%;
+  margin-top: 175px;
+}
+.background-top h3 {
+  color: #fff6e5;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  margin: 30px 0;
+}
+.background-top .read-more {
+  position: relative;
+  background: rgba(255, 165, 0, 0.5);
+  text-transform: uppercase;
+  color: #fff;
+  padding: 20px 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  top: 20px;
+  -webkit-transition: background 0.7s linear;
+  -moz-transition: background 0.7s linear;
+  -o-transition: background 0.7s linear;
+  transition: background 0.7s linear;
+}
+.background-top .read-more:hover {
+  text-decoration: none;
+  background: #ff8e29;
+  color: #ffffff;
+}
+/*============    Портфоліо    ===========*/
+.background-portfolio {
+  background: transparent;
+}
+.background-portfolio #portfolio h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 80px 0;
+  line-height: 1.5em;
+  color: #314a5b;
+}
+.background-portfolio #portfolio .portfolio {
+  background: url("../img/border.png") bottom left no-repeat;
+}
+.background-portfolio #portfolio .view {
+  padding-left: 0;
+  margin-bottom: 5%;
+  width: 270px;
+  height: 270px;
+  margin-right: 20px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+  -moz-box-shadow: 1px 1px 2px #e6e6e6;
+  box-shadow: 1px 1px 2px #e6e6e6;
+  cursor: default;
+  border: solid 1px #fff6e5;
+}
+.background-portfolio #portfolio .view .mask {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 165, 0, 0.7);
+  -webkit-transform: translateX(-300px);
+  -moz-transform: translateX(-300px);
+  -o-transform: translateX(-300px);
+  -ms-transform: translateX(-300px);
+  transform: translateX(-300px);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 0px;
+  width: 270px;
+  height: 270px;
+}
+.background-portfolio #portfolio .view img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.background-portfolio #portfolio .view h2 {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 20px 0 0 0;
+}
+.background-portfolio #portfolio .view p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 12px;
+  position: relative;
+  color: #314a5b;
+  padding: 20px 20px 20px;
+  text-align: center;
+}
+.background-portfolio #portfolio .view a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #314a5b;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 0 1px #1d1c1c;
+  -moz-box-shadow: 0 0 1px #1d1c1c;
+  box-shadow: 0 0 1px #1d1c1c;
+}
+.background-portfolio #portfolio .view a:hover {
+  -webkit-box-shadow: 0 0 5px #1d1c1c;
+  -moz-box-shadow: 0 0 5px #1d1c1c;
+  box-shadow: 0 0 5px #1d1c1c;
+}
+.background-portfolio #portfolio .view:hover .mask {
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+.background-portfolio #portfolio .view:hover p {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+/*============    Про мене    ===========*/
+.background-about {
+  background: url("../img/background-about.jpg") center center no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+}
+.background-about h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 80px 0;
+  line-height: 1.5em;
+}
+.background-about .about {
+  background: url("../img/border.png") left bottom no-repeat;
+  color: #4d200d;
+  margin-bottom: 50px;
+}
+.background-about p {
+  color: #314a5b;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+.background-about .indent-padding {
+  padding-left: 0;
+}
+.background-about .personal {
+  margin: 20px 0 10px 0;
+  color: #4d200d;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.background-about .about-personal,
+.background-about .my-skill {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  list-style: none;
+  padding: 0;
+  color: #314a5b;
+  line-height: 1.5em;
+}
+.background-about .skills {
+  color: #4d200d;
+  text-transform: uppercase;
+}
+.background-about .icon {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 44px;
+}
+.background-about .icon .linkedin {
+  padding: .35em .45em;
+}
+.background-about .icon .facebook {
+  padding: .35em .60em;
+}
+.background-about .icon .vk {
+  padding: .33em .33em;
+}
+.background-about .fa-borders {
+  -webkit-transition: border 0.5s linear;
+  -o-transition: border 0.5s linear;
+  transition: border 0.5s linear;
+  border: solid 0.08em #826255;
+}
+.background-about .fa-borders:hover {
+  border: solid 0.08em #4d200d;
+}
+.background-about .all-icon {
+  padding: 2%;
+  color: #826255;
+  margin-left: 12%;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.background-about .all-icon:hover {
+  color: #4d200d;
+}
+/*============    Контакти    ===========*/
+#contact {
+  margin-bottom: 35px;
+}
+#contact h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 80px 0;
+  line-height: 1.5em;
+  color: #314a5b;
+  background: url("../img/border.png") bottom left no-repeat;
+}
+#contact .contact-with-me {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #314a5b;
+}
+#contact .contact-color {
+  color: #a2a7b1;
+  padding-left: 10px;
+}
+#contact .contact-color:hover {
+  color: #80848c;
+  text-decoration: none;
+}
+#contact .personal i,
+#contact .personal-second i {
+  color: #ffa500;
+  font-size: 18px;
+}
+#contact .personal i:hover,
+#contact .personal-second i:hover {
+  color: #ff8e29;
+}
+#contact .personal-second {
+  margin: 10px 0 0 0;
+}
+/*============    Підвал    ===========*/
+#footer-background {
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+}
+#footer-background .border-footer {
+  border-top: 1px solid #e6e6e6;
+}
+#footer-background .social-icon-footer {
+  display: block;
+  list-style: none;
+  margin: 32px 0 0 0;
+  padding: 0;
+}
+#footer-background .social-icon-footer li {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 15px 0 0;
+}
+#footer-background .social-icon-footer a {
+  display: block;
+  color: #a2a7b1;
+  -webkit-transition: color 0.7s linear;
+  -moz-transition: color 0.7s linear;
+  -o-transition: color 0.7s linear;
+  transition: color 0.7s linear;
+}
+#footer-background .social-icon-footer a:hover {
+  color: #696969;
+}
+#footer-background .copyright {
+  margin-top: 32px;
+  text-align: right;
+}
+#footer-background .copyright span {
+  font-size: 13px;
+  color: #a2a7b1;
+}
+/*============    Скроллер    ===========*/
+#scroller {
+  position: fixed;
+  color: #ffa500;
+  bottom: 19px;
+  right: 15px;
+  cursor: pointer;
+  display: none;
+}
+#scroller .scroll {
+  border: solid 0.1em #ffa500;
+  padding: 0.35em 0.4em;
+}
+/*============    	Адаптив    ===========*/
+@media (min-width: 481px) and (max-width: 768px) {
+  #contact,
+  .background-top,
+  .background-portfolio,
+  .background-about {
+    padding: 0 25px;
+  }
+  .logo {
+    font-size: 14px;
+    padding: 15px 7px 7px;
+  }
+  h1 {
+    font-size: 2em;
+    margin-top: 10%;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 40px 0;
+  }
+  h3 {
+    font-size: 1.1em;
+    margin: 20px 0;
+  }
+  span {
+    font-size: 13px;
+  }
+  .read-more {
+    font-size: 12px;
+    padding: 10px 15px;
+    top: 20px;
+  }
+  #menu-ul {
+    overflow: hidden;
+  }
+  #menu-ul li {
+    display: block;
+  }
+  .padding-non {
+    padding: 0;
+  }
+  .contact-with-me {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .personal {
+    margin: 15px 0 10px 0;
+  }
+  .social-icon-footer {
+    margin: 20px 0 0 0;
+    padding: 0 10px;
+  }
+  .copyright {
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+  .copyright span {
+    padding: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  #menu-ul {
+    margin-right: 0;
+  }
+  h1 {
+    font-size: 2.5em;
+    margin-top: 16%;
+  }
+  h2 {
+    margin: 50px 0;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  h1 {
+    margin-top: 7%;
+    font-size: 2em;
+  }
+}

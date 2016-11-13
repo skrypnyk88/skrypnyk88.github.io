@@ -1,0 +1,584 @@
+/*============    ШРИФТЫ    ===========*/
+.bold {
+  font-family: Arial;
+  font-weight: bold;
+}
+.med {
+  font-family: Arial;
+  font-weight: normal;
+}
+.light {
+  font-family: Arial;
+  font-weight: lighter;
+}
+/*============    ШАПКА	    ===========*/
+a:hover,
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+button:focus {
+  outline: none;
+}
+.section_header h2 {
+  text-transform: uppercase;
+  font-family: Arial;
+  font-weight: bold;
+  color: #666666;
+}
+/*============    HEADER	    ===========*/
+/*============    НАВІГАЦІЯ    ===========*/
+nav {
+  background-color: #fafdfa;
+  top: 0px;
+  /*высота шапки в пикселях*/
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+nav ul.list-inline a {
+  display: inline-block;
+  padding: 24px 15px;
+  color: #666666;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+nav ul.list-inline a:hover {
+  background-color: #67cc67;
+  color: #fff;
+}
+nav ul.list-inline a li {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+/*============    ГОЛОВНИЙ ЕКРАН    ===========*/
+section#main {
+  background: url("../img/main-bg-1920.jpg") no-repeat center center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+section#main .main_header h1 {
+  margin-top: 110px;
+  margin-bottom: 90px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+section#main .main_header h1 span {
+  background-color: #67cc67;
+  padding: 5px;
+}
+section#main h2 {
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #666666;
+}
+section#main h2 span {
+  color: #FF8E29;
+}
+section#main .main_buttons {
+  margin-top: 7px;
+  margin-bottom: 100px;
+}
+section#main .main_buttons #get_measures {
+  border: none;
+  background-color: #67cc67;
+  padding: 17px 35px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+}
+section#main .main_buttons #get_measures:hover {
+  background-color: #48B148;
+}
+section#main .main_buttons #get_types {
+  border: none;
+  background-color: transparent;
+  border: 2px solid #67cc67;
+  font-family: Arial;
+  font-weight: bold;
+  color: #48B148;
+  font-size: 20px;
+  padding: 15px 33px;
+  text-transform: uppercase;
+}
+section#main .main_buttons #get_types:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/*============    ВИДИ ЖАЛЮЗІ    ===========*/
+section#types {
+  color: #666666;
+}
+section#types h2 {
+  margin: 50px 0;
+}
+section#types h4 {
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 16px;
+}
+section#types .refact_btn_more {
+  padding: 0px;
+  padding-right: 2px;
+}
+section#types .refact_btn_order {
+  padding: 0px;
+  padding-left: 2px;
+}
+section#types button.more_btn {
+  border: none;
+  color: #66cc66;
+  border: 2px solid #66cc66;
+  padding: 10px 0px;
+  background-color: transparent;
+  text-transform: uppercase;
+  margin-left: 0;
+  margin-right: 0px;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+section#types button.more_btn:hover {
+  color: #fff;
+  background-color: #66cc66;
+}
+section#types button.order_btn {
+  border: none;
+  color: #fff;
+  border: 2px solid #66cc66;
+  padding: 10px 0px;
+  background-color: #66cc66;
+  text-transform: uppercase;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+section#types button.order_btn:hover {
+  color: #66cc66;
+  background-color: #fff;
+}
+section#types .card {
+  border: 2px solid transparent;
+  padding: 10px;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+section#types .card:hover {
+  border: 2px solid #b2e5b2;
+  background-color: #fafdfa;
+}
+/*============    ДОПОМОГА    ===========*/
+section#help {
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+section#help h2 {
+  color: #FF8E29;
+  font-size: 27px;
+}
+section#help p {
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #666666;
+}
+section#help button {
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  padding: 15px 35px;
+  color: #FF8E29;
+  border: 2px solid #FF8E29;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+section#help button:hover {
+  background-color: #FF8E29;
+  color: #fff;
+}
+section#help img {
+  margin-top: 25px;
+}
+/*============    ПОРТФОЛІО    ===========*/
+/*============    АКЦІЯ    ===========*/
+section#offer {
+  padding-top: 70px;
+}
+section#offer h4,
+section#offer h3 {
+  font-family: Arial;
+  font-weight: bold;
+  color: #FF8E29;
+  text-transform: uppercase;
+}
+section#offer p {
+  color: #666666;
+  font-size: 22px;
+  font-family: Arial;
+  font-weight: lighter;
+}
+section#offer input[name="name"] {
+  padding: 25px;
+  background: url("../img/icon_man.png") no-repeat center left 2%;
+  background-size: 17px;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  font-family: Arial;
+  font-weight: lighter;
+  opacity: 0.5;
+}
+section#offer input[name="name"]:hover,
+section#offer input[name="name"]:focus {
+  opacity: 1;
+}
+section#offer input[name="phone"] {
+  padding: 25px;
+  background: url("../img/icon_phone.png") no-repeat center left 2%;
+  background-size: 17px;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  font-family: Arial;
+  font-weight: lighter;
+  opacity: 0.5;
+}
+section#offer input[name="phone"]:hover,
+section#offer input[name="phone"]:focus {
+  opacity: 1;
+}
+section#offer button {
+  text-transform: uppercase;
+  font-family: Arial;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 14px 30px;
+  background-color: #FF8E29;
+  border: 2px solid #FF8E29;
+  width: 100%;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+section#offer button:hover {
+  background-color: #fc8b1a;
+}
+/*============    ВІДГУКИ    ===========*/
+section#feedback {
+  padding-bottom: 50px;
+}
+section#feedback .section_header {
+  margin-bottom: 50px;
+}
+section#feedback .item {
+  background-color: #f8f8f8;
+  pading: 20px;
+}
+section#feedback .item h5 {
+  margin-top: 25px;
+  padding-left: 15px;
+  font-family: Arial;
+  font-weight: normal;
+  color: #666666;
+  font-size: 20px;
+}
+section#feedback .item a {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 18px;
+  padding-left: 15px;
+}
+section#feedback .item p {
+  font-family: Arial;
+  font-weight: lighter;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+section#feedback .carousel-indicators {
+  bottom: -50px;
+}
+section#feedback .carousel-indicators .active {
+  background-color: #67cc67;
+}
+section#feedback .carousel-indicators li {
+  border: 1px solid #67cc67;
+}
+section#feedback .audio {
+  padding-left: 10px;
+}
+/*============    ПІДВАЛ    ===========*/
+footer {
+  background-color: #666666;
+  color: #fff;
+}
+footer h3 {
+  font-family: Arial;
+  font-weight: normal;
+  padding-top: 50px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+footer p#address {
+  text-transform: uppercase;
+}
+footer p#lviv {
+  font-size: 19px;
+}
+footer p#phone_footer {
+  text-transform: uppercase;
+}
+footer .social_icons {
+  color: #666666;
+}
+footer #number {
+  margin-bottom: 35px;
+}
+footer .vk_icon {
+  padding: 7px 4px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 5px;
+  margin-left: 0;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+footer .vk_icon:hover {
+  background-color: #fff;
+}
+footer .instagram_icon {
+  padding: 8px 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 5px;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+footer .instagram_icon:hover {
+  background-color: #fff;
+}
+footer button {
+  font-family: Arial;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin-left: 5px;
+  margin-top: 4px;
+  text-transform: uppercase;
+  border: solid 2px #fff;
+  color: #fff;
+  background-color: transparent;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+footer button:hover {
+  color: #666666;
+  background-color: #fff;
+}
+footer .details_row {
+  padding-top: 30px;
+}
+footer .details_row h5 {
+  text-transform: uppercase;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 20px;
+}
+footer .details_row p {
+  font-family: Arial;
+  font-weight: lighter;
+}
+footer .details_row .policy {
+  text-align: center;
+}
+footer .details_row .policy a {
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+}
+footer .details_row .skrypnyk {
+  text-align: right;
+}
+footer .details_row .skrypnyk h4 {
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 4px;
+  text-align: right;
+  margin-bottom: 0;
+}
+footer .details_row .skrypnyk a {
+  color: #fff;
+  font-family: Arial;
+  font-weight: lighter;
+}
+footer .our_office {
+  padding-top: 30px;
+}
+/*============    ВСПЛИВАЮЧІ ВІКНА    ===========*/
+.modal-dialog {
+  margin-top: 10%;
+}
+.modal-dialog .close {
+  color: #666666;
+  opacity: 0.6;
+  text-shadow: none;
+}
+.modal-dialog .close:hover {
+  opacity: 0.8;
+}
+.modal-dialog .modal_content {
+  border-radius: 0;
+}
+.modal-dialog .modal-header {
+  border-bottom: none;
+}
+.modal-dialog .header_modal {
+  text-transform: uppercase;
+}
+.modal-dialog .header_modal h4 {
+  font-family: Arial;
+  font-weight: bold;
+  color: #666666;
+}
+.modal-dialog input[name="name"] {
+  padding: 25px;
+  background: url("../img/icon_man.png") no-repeat center left 2%;
+  background-size: 17px;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  font-family: Arial;
+  font-weight: lighter;
+  opacity: 0.5;
+}
+.modal-dialog input[name="name"]:hover,
+.modal-dialog input[name="name"]:focus {
+  opacity: 1;
+}
+.modal-dialog input[name="phone"] {
+  padding: 25px;
+  margin-top: 15px;
+  background: url("../img/icon_phone.png") no-repeat center left 2%;
+  background-size: 17px;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  font-family: Arial;
+  font-weight: lighter;
+  opacity: 0.5;
+}
+.modal-dialog input[name="phone"]:hover,
+.modal-dialog input[name="phone"]:focus {
+  opacity: 1;
+}
+.modal-dialog button[type=submit] {
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 16px 46px;
+  background-color: #FF8E29;
+  border: 2px solid #FF8E29;
+  width: 100%;
+  -moz-transition: all 0.3s 0.02s ease;
+  -o-transition: all 0.3s 0.02s ease;
+  -webkit-transition: all 0.3s 0.02s ease;
+}
+.modal-dialog button[type=submit]:hover {
+  background-color: #fc8b1a;
+}
+#more_horizontal_modal .info .price,
+#more_vertical_modal .info .price,
+#more_roller_modal .info .price,
+#more_pleated_modal .info .price {
+  color: #fc8b1a;
+  font-family: Arial;
+  font-weight: bold;
+}
+#more_horizontal_modal .info .price span,
+#more_vertical_modal .info .price span,
+#more_roller_modal .info .price span,
+#more_pleated_modal .info .price span {
+  font-size: 18px;
+}
+#more_horizontal_modal .header_modal_info_horizontal,
+#more_vertical_modal .header_modal_info_horizontal,
+#more_roller_modal .header_modal_info_horizontal,
+#more_pleated_modal .header_modal_info_horizontal {
+  text-transform: uppercase;
+  padding-left: 20px;
+  font-family: Arial;
+  font-weight: bold;
+}
+#more_horizontal_modal input[name="name"],
+#more_vertical_modal input[name="name"],
+#more_roller_modal input[name="name"],
+#more_pleated_modal input[name="name"] {
+  padding: 15px;
+  padding-left: 25px;
+}
+#more_horizontal_modal input[name="phone"],
+#more_vertical_modal input[name="phone"],
+#more_roller_modal input[name="phone"],
+#more_pleated_modal input[name="phone"] {
+  padding: 15px;
+  padding-left: 25px;
+  margin-top: 0;
+}
+#more_horizontal_modal button[type="submit"],
+#more_vertical_modal button[type="submit"],
+#more_roller_modal button[type="submit"],
+#more_pleated_modal button[type="submit"] {
+  font-size: 12px;
+  padding: 7px 20px;
+  margin-top: 0px;
+}
+#get_help_modal h4 {
+  padding-bottom: 25px;
+}
+#get_help_modal h4 span {
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: normal;
+  color: #fc8b1a;
+}
+#send_question_modal textarea {
+  width: 100%;
+  margin-top: 15px;
+}
+#policy_modal .modal-content {
+  width: 100%;
+}
+#policy_modal button {
+  float: right;
+  margin-top: 15px;
+}

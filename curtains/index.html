@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Виготовлення і встановлення жалюзі</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body> 
+      <nav id="top_nav">
+        <div class="container nav_container">
+          <div class="rov">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed menu_btn" data-toggle="collapse" data-target="#collapse_menu_btn">
+                <i class="fa fa-bars menu_icon_btn" aria-hidden="true"></i>
+              </button>
+              <a class="navbar-brand logo hidden-lg hidden-md hidden-sm" href="index.html">
+                <img src="img/logo.jpg" alt="Logo">
+              </a>
+            </div>
+
+            <div class="collapse navbar-collapse " id="collapse_menu_btn">
+              <ul class="list-inline col-md-12">
+                <li class="hidden-xs hidden-sm"><img src="img/logo.jpg" alt="Logo"></li>
+              <a href="#main">
+                <li>Головна</li>
+              </a>
+              <a href="#types">
+                <li>Види жалюзі</li>
+              </a>
+              <a href="#portfolio">
+                <li>Наші роботи</li>
+              </a>
+              <a href="#offer">
+                <li>Акція</li>
+              </a>
+              <a href="#feedback">
+                <li>Відгуки</li>
+              </a>
+              <a href="#contacts">
+                <li>Контакти</li>
+              </a>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="main">
+        <div class="container">
+          <div class="row wow fadeInUp main_header" data-wow-delay="0.2s">
+            <h1><span>Встановимо жалюзі у вашій квартирі </span><br> <span>за 2 години з повною гарантією</span> <br> <span>і безкоштовною доставкою</span></h1>
+          </div>
+          <div class="row wow fadeInLeft" data-wow-lelay="0.3s"> 
+            <h2>Замовте виїзд замірника до дому.<span>Це безкоштовно!</span></h2> 
+          </div>
+          <div class="row main_buttons wow fadeInLeft" data-wow-delay="0.5s"> 
+            <button data-toggle="modal" href="#get_measures_modal" id="get_measures">Викликати замірника</button>
+            <a href="#types"><button id="get_types">Вибрати жалюзі</button> </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="types">
+        <div class="container">
+          <div class="row">
+            <div class="section_header text-center">
+              <h2>Види жалюзі</h2>
+            </div>
+          </div>
+          <div class="rov text-center">
+            
+            <div class="col-sm-6 col-md-3 card wow fadeInUp" data-wow-delay="0.5s">
+              <div>
+                <img src="img/types-2.jpg" alt="вертикальні жалюзі" class="img-responsive center-block">
+                <h4>вертикальні жалюзі</h4>
+                <br>
+                <div class="col-sm-6 col-md-6  refact_btn_more">
+                  <button class="more_btn" data-toggle="modal" href="#more_vertical_modal">детальніше</button>  
+                </div>
+                <div class="col-sm-6 col-md-6 refact_btn_order">                
+                  <button class="order_btn" data-toggle="modal" href="#get_order_modal">замовити</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 card wow fadeInUp" data-wow-delay="0.4s">
+              <div>
+                <img src="img/types-1.jpg" alt="горизонтальні жалюзі" class="img-responsive center-block">
+                <h4>горизонтальні жалюзі</h4>
+                <br>
+                <div class="col-sm-6 col-md-6 refact_btn_more">
+                  <button class="more_btn" data-toggle="modal" href="#more_horizontal_modal">детальніше</button>
+                </div>
+                <div class="col-sm-6 col-md-6 refact_btn_order">
+                  <button class="order_btn" data-toggle="modal" href="#get_order_modal">замовити</button>
+                </div>  
+              </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-3 card wow fadeInUp" data-wow-delay="0.6s">
+              <div>
+                <img src="img/types-3.jpg" alt="рулонні жалюзі" class="img-responsive center-block">
+                <h4>рулонні жалюзі</h4>
+                <br>
+                <div class="col-sm-6 col-md-6 refact_btn_more">
+                  <button class="more_btn" data-toggle="modal" href="#more_roller_modal">детальніше</button>     
+                </div>
+                <div class="col-sm-6 col-md-6 refact_btn_order">                  
+                  <button class="order_btn" data-toggle="modal" href="#get_order_modal">замовити</button>
+                </div>                             
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 card wow fadeInUp" data-wow-delay="0.7s">
+              <div>
+                <img src="img/types-4.jpg" alt="жалюзі пліссе" class="img-responsive center-block">
+                <h4>жалюзі пліссе</h4>
+                <br>
+                <div class="col-sm-6 col-md-6 refact_btn_more">
+                  <button class="more_btn  refact_btn_more" data-toggle="modal" href="#more_pleated_modal">детальніше</button>  
+                </div>
+                <div class="col-sm-6 col-md-6 refact_btn_order">                
+                  <button class="order_btn" data-toggle="modal" href="#get_order_modal">замовити</button>  
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="help">
+        <div class="container">
+          <div class="row section_header">
+            <div class="col-md-6 col-md-offset-2">
+              <h2>Не знаєте які жалюзі замовити?</h3>
+              <br>
+              <p>Залиште заявку на консультацію і наш фахівець докладно відповість на всі Ваши запитання. Це безкоштовно.</p>
+              <br>
+              <button data-toggle="modal" href="#get_help_modal">Безкоштовна консультація</button>
+            </div>
+            <div class="col-md-2">
+              <img src="img/help.jpg" alt="Безкоштовна консультація" class="img-responsive center-block"> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section_header text-center">
+              <h2>Наші роботи</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 col-md-offset-2">
+              <div class="fotorama" 
+                          data-nav="thumbs" >
+                <img src="img/portfolio/1.jpg" alt="#">
+                <img src="img/portfolio/2.jpg" alt="#">
+                <img src="img/portfolio/3.jpg" alt="#">
+                <img src="img/portfolio/4.jpg" alt="#">
+                <img src="img/portfolio/5.jpg" alt="#">
+                <img src="img/portfolio/6.jpg" alt="#">
+                <img src="img/portfolio/7.jpg" alt="#">
+                <img src="img/portfolio/8.jpg" alt="#">
+                <img src="img/portfolio/9.jpg" alt="#">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="offer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="img/gift.jpg" alt="акция" class="img-responsive center-block gift">
+            </div>
+            <div class="col-md-9">
+              <h4>акція</h4>
+              <br>
+              <h3>Замовте встановлення жалюзі до 20.12.2016</h3>
+              <br>
+              <p>і отримаєте подарунок - москітну сітку для вікна</p>
+              <div class="row">
+              <div class="col-md-4">
+                <form action="send.php" method="post">
+                <input type="hidden" name="what" value="Брати участь в акції"> 
+                                     
+                    <input name="name" required placeholder="Ім'я..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-md-4">
+                    <input name="phone" id="phone-1" required placeholder="Тел..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-md-4">
+                    <button type="submit">Замовити жалюзі</button>
+                  </div>
+                </form>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="feedback">
+          <div class="container">
+            <div class="row">
+              <div class="section_header text-center">
+                <h2>Відгуки про нашу роботу</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="feedback_slider">
+                <!-- Карусель -->
+                <div id="myCarousel" class="carousel slide" data-interval="30000" data-ride="carousel">
+                  <!-- Индикаторы для карусели -->
+                  <ol class="carousel-indicators">
+                    <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>   
+                  <!-- Слайды карусели -->
+                  <div class="carousel-inner">
+                    <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+                    <div class="active item">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="fotorama">
+                            <img src="img/feedback/1/1.jpg" alt="">
+                            <img src="img/feedback/1/2.jpg" alt="">
+                            <img src="img/feedback/1/3.jpg" alt="">
+                          </div>
+                        </div>                    
+                        <div class="col-md-8">
+                          <div class="row">
+                            <div class="col-xs-2 col-md-2 img">
+                              <img src="img/feedback/1/avatar-1.jpg" alt="" class="img-circle center-block feedback_img_user">
+                            </div>
+                            <div class="col-xs-10 col-md-10 feedback_user">
+                              <h5>Марина Забілина</h5>                              
+                              <a href="#">vk.com/id646413168</a>
+                            </div>
+                          </div>                    
+                          <div class="row">
+                            <div class="audio">
+                              <audio controls>                                
+                                <source src="#" type="audio/mpeg"> <!-- немає для укономії місця -->
+                              </audio>
+                            </div>
+                            <div class="row">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dolorem, est. Quas odit impedit, dolor necessitatibus obcaecati sunt assumenda in optio laboriosam, magni, dolorem odio!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Слайд №2 -->
+                    <div class="item">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="fotorama">
+                            <img src="img/feedback/1/1.jpg" alt="">
+                            <img src="img/feedback/1/2.jpg" alt="">
+                            <img src="img/feedback/1/3.jpg" alt="">
+                          </div>
+                        </div>                    
+                        <div class="col-md-8">
+                          <div class="row">
+                            <div class="col-xs-2 col-md-2 img">
+                              <img src="img/feedback/1/avatar-1.jpg" alt="" class="img-circle center-block feedback_img_user">
+                            </div>
+                            <div class="col-xs-10 col-md-10 feedback_user">
+                              <h5>Марина Забілина</h5>                              
+                              <a href="#">vk.com/id646413168</a>
+                            </div>
+                          </div>                    
+                          <div class="row">
+                            <div class="audio">
+                              <audio controls>                                
+                                <source src="#" type="audio/mpeg"> <!-- немає для укономії місця -->
+                              </audio>
+                            </div>
+                            <div class="row">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dolorem, est. Quas odit impedit, dolor necessitatibus obcaecati sunt assumenda in optio laboriosam, magni, dolorem odio!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Слайд №3 -->
+                    <div class="item">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="fotorama">
+                            <img src="img/feedback/1/1.jpg" alt="">
+                            <img src="img/feedback/1/2.jpg" alt="">
+                            <img src="img/feedback/1/3.jpg" alt="">
+                          </div>
+                        </div>                    
+                        <div class="col-md-8">
+                          <div class="row">
+                            <div class="col-xs-2 col-md-2 img">
+                              <img src="img/feedback/1/avatar-1.jpg" alt="" class="img-circle center-block feedback_img_user">
+                            </div>
+                            <div class="col-xs-10 col-md-10 feedback_user">
+                              <h5>Марина Забілина</h5>                              
+                              <a href="#">vk.com/id646413168</a>
+                            </div>
+                          </div>                    
+                          <div class="row">
+                            <div class="audio">
+                              <audio controls>                                
+                                <source src="#" type="audio/mpeg"> <!-- немає для укономії місця -->
+                              </audio>
+                            </div>
+                            <div class="row">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dolorem, est. Quas odit impedit, dolor necessitatibus obcaecati sunt assumenda in optio laboriosam, magni, dolorem odio!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- Навигация для карусели -->
+                  <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
+                 <!--  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next"
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <footer id="contacts">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="greed">
+                <div class="our_office">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.1427229143283!2d23.98116001605584!3d49.820982679393545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae770d02d0687%3A0x2700a25c59067826!2z0LLRg9C70LjRhtGPINCh0LDQtNC-0LLQsCwgMTI0LCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0ZfQvdCw!5e0!3m2!1suk!2s!4v1477757708087" width="100%" height="330" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <address>
+                  <h3>Контакти</h3>              
+                  <p id="address"><span class="glyphicon  glyphicon-map-marker"></span> Адреса</p>              
+                  <p id="lviv">м.Львів вул. Садова 124, офіс 324</p>
+                </address>
+              </div>
+              <div class="row">
+                <div class="phone_footer">
+                  <p id="phone_footer">
+                    <span class="glyphicon glyphicon-earphone"></span> Телефон:
+                  </p>
+                  <p id="number">
+                    8(999)999-99-99 
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-1 col-md-1 vk_icon">
+                  <a class="social_icons" href=""><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>                
+                </div>
+                <div class=" col-xs-1 col-md-1 instagram_icon">                 
+                  <a class="social_icons" href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-xs-8 col-md-9 ">
+                  <div class="social_button">
+                    <button data-toggle="modal" href="#send_question_modal">Задати запитання</button>
+                </div> 
+                </div>                
+              </div>
+            </div>
+          </div>
+          <div class="row details_row">
+            <div class="col-md-4 details">
+              <h5>ООО "Роги і копита"</h5>
+              <p>ОГРН 3256489463331</p>
+            </div>
+            <div class="col-md-4 policy">
+              <a href="#policy_modal" data-toggle="modal">Політика конфіденційності</a>
+              <br>
+              <p>Львів, 2016</p>
+            </div>
+            <div class="col-md-4 skrypnyk">
+              <h4 class="col-xs-6 col-sm-9 col-md-12">Сайт розробив:</h4>
+              <a class="col-xs-6 col-sm-3 col-md-12" href="https://vk.com/id26455799">Скрипник Дмитро</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Модальне вікно виклику замірника -->
+        <div class="modal fade" id="get_measures_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>              
+              </div>
+              <div class="modal-body text-center">
+               <div class="row">
+                <div class="header_modal">
+                  <h4>Для виклику замірника<br>залишіть свої дані</h4>
+                </div>
+              </div>
+              <div class="row">
+                <form action="send.php" method="post"> 
+                  <div class="col-xs-12"> 
+                    <input type="hidden" name="what" value="Викликати замірника">                   
+                    <input name="name" required placeholder="Ім'я..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12">
+                    <input name="phone" id="phone-2" required placeholder="Тел..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12">
+                    <button type="submit">Викликати замірника</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!-- Модальне вікно (більше про горизонтальні жалюзі) -->
+        <div class="modal fade" id="more_horizontal_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>              
+              </div>
+              <div class="modal-body">
+               <div class="row">
+                <div class="header_modal_info_horizontal">
+                  <h4>Горизонтальні жалюзі</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="fotorama">
+                    <img src="img/portfolio/1.jpg" alt="#">
+                    <img src="img/portfolio/2.jpg" alt="#">
+                    <img src="img/portfolio/3.jpg" alt="#">
+                    <img src="img/portfolio/4.jpg" alt="#">
+                    <img src="img/portfolio/5.jpg" alt="#">
+                    <img src="img/portfolio/6.jpg" alt="#">
+                    <img src="img/portfolio/7.jpg" alt="#">
+                    <img src="img/portfolio/8.jpg" alt="#">
+                    <img src="img/portfolio/9.jpg" alt="#">
+                  </div>
+                </div>
+                <div class="col-md-7 info">
+                  <p>Свою популярність алюмінієві горизонтальні жалюзі отримали завдяки надійності і легкості у догляді.</p>
+                  <p>Крім цього, традиційні штори мнуться і їх доводиться гладити. Цих недоліків позбавлені горизонтальні жалюзі. </p>
+                  <p class="price">від <span>150грн</span></p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="send.php" method="post"> 
+                  <div class="col-xs-12 col-md-4">  
+                  <input type="hidden" name="what" value="більше про горизонтальні жалюзі">                 
+                    <input name="name" required placeholder="Ім'я..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                    <input name="phone" id="phone-3" required placeholder="Тел..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                    <button type="submit">Виклик замірника</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!-- Модальне вікно (більше про вертикальні жалюзі) -->
+        <div class="modal fade" id="more_vertical_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>              
+              </div>
+              <div class="modal-body">
+               <div class="row">
+                <div class="header_modal_info_horizontal">
+                  <h4>Горизонтальні жалюзі</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="fotorama">
+                    <img src="img/portfolio/1.jpg" alt="#">
+                    <img src="img/portfolio/2.jpg" alt="#">
+                    <img src="img/portfolio/3.jpg" alt="#">
+                    <img src="img/portfolio/4.jpg" alt="#">
+                    <img src="img/portfolio/5.jpg" alt="#">
+                    <img src="img/portfolio/6.jpg" alt="#">
+                    <img src="img/portfolio/7.jpg" alt="#">
+                    <img src="img/portfolio/8.jpg" alt="#">
+                    <img src="img/portfolio/9.jpg" alt="#">
+                  </div>
+                </div>
+                <div class="col-md-7 info">
+                  <p>Свою популярність алюмінієві горизонтальні жалюзі отримали завдяки надійності і легкості у догляді.</p>
+                  <p>Крім цього, традиційні штори мнуться і їх доводиться гладити. Цих недоліків позбавлені горизонтальні жалюзі. </p>
+                  <p class="price">від <span>150грн</span></p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="send.php" method="post">
+                <input type="hidden" name="what" value="більше про вертикальні жалюзі"> 
+                  <div class="col-xs-12 col-md-4col-xs-12 col-md-4col-xs-12 col-md-4">                   
+                    <input name="name" required placeholder="Ім'я..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12 col-md-4col-xs-12 col-md-4col-xs-12 col-md-4">
+                    <input name="phone" id="phone-4" required placeholder="Тел..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12 col-md-4col-xs-12 col-md-4col-xs-12 col-md-4">
+                    <button type="submit">Виклик замірника</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!-- Модальне вікно (більше про рулонні жалюзі) -->
+        <div class="modal fade" id="more_roller_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>              
+              </div>
+              <div class="modal-body">
+               <div class="row">
+                <div class="header_modal_info_horizontal">
+                  <h4>Горизонтальні жалюзі</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="fotorama">
+                    <img src="img/portfolio/1.jpg" alt="#">
+                    <img src="img/portfolio/2.jpg" alt="#">
+                    <img src="img/portfolio/3.jpg" alt="#">
+                    <img src="img/portfolio/4.jpg" alt="#">
+                    <img src="img/portfolio/5.jpg" alt="#">
+                    <img src="img/portfolio/6.jpg" alt="#">
+                    <img src="img/portfolio/7.jpg" alt="#">
+                    <img src="img/portfolio/8.jpg" alt="#">
+                    <img src="img/portfolio/9.jpg" alt="#">
+                  </div>
+                </div>
+                <div class="col-md-7 info">
+                  <p>Свою популярність алюмінієві горизонтальні жалюзі отримали завдяки надійності і легкості у догляді.</p>
+                  <p>Крім цього, традиційні штори мнуться і їх доводиться гладити. Цих недоліків позбавлені горизонтальні жалюзі. </p>
+                  <p class="price">від <span>150грн</span></p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="send.php" method="post"> 
+                  <div class="col-xs-12 col-md-4col-xs-12 col-md-4">
+                  <input type="hidden" name="what" value="більше про рулонні жалюзі">                   
+                    <input name="name" required placeholder="Ім'я..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12 col-md-4col-xs-12 col-md-4">
+                    <input name="phone" id="phone-5" required placeholder="Тел..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12 col-md-4col-xs-12 col-md-4">
+                    <button type="submit">Виклик замірника</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!-- Модальне вікно (більше про жалюзі пліссе) -->
+        <div class="modal fade" id="more_pleated_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>              
+              </div>
+              <div class="modal-body">
+               <div class="row">
+                <div class="header_modal_info_horizontal">
+                  <h4>Горизонтальні жалюзі</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="fotorama">
+                    <img src="img/portfolio/1.jpg" alt="#">
+                    <img src="img/portfolio/2.jpg" alt="#">
+                    <img src="img/portfolio/3.jpg" alt="#">
+                    <img src="img/portfolio/4.jpg" alt="#">
+                    <img src="img/portfolio/5.jpg" alt="#">
+                    <img src="img/portfolio/6.jpg" alt="#">
+                    <img src="img/portfolio/7.jpg" alt="#">
+                    <img src="img/portfolio/8.jpg" alt="#">
+                    <img src="img/portfolio/9.jpg" alt="#">
+                  </div>
+                </div>
+                <div class="col-md-7 info">
+                  <p>Свою популярність алюмінієві горизонтальні жалюзі отримали завдяки надійності і легкості у догляді.</p>
+                  <p>Крім цього, традиційні штори мнуться і їх доводиться гладити. Цих недоліків позбавлені горизонтальні жалюзі. </p>
+                  <p class="price">від <span>150грн</span></p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="send.php" method="post"> 
+                  <div class="col-xs-12 col-md-4">
+                  <input type="hidden" name="what" value="більше про жалюзі пліссе">                   
+                    <input name="name" required placeholder="Ім'я..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                    <input name="phone" id="phone-6" required placeholder="Тел..." type="text"
+                    class="form-control form-input">
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                    <button type="submit">Виклик замірника</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!-- Модальне вікно замовлення жалюзі -->
+          <div class="modal fade" id="get_order_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>              
+                </div>
+                <div class="modal-body text-center">
+                 <div class="row">
+                  <div class="header_modal">
+                    <h4>Залишіть свої дані<br>і ми звяжемося з Вами!</h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <form action="send.php" method="post"> 
+                    <div class="col-xs-12">
+                    <input type="hidden" name="what" value="замовлення жалюзі">                   
+                      <input name="name" required placeholder="Ім'я..." type="text"
+                      class="form-control form-input">
+                    </div>
+                    <div class="col-xs-12">
+                      <input name="phone" id="phone-7" required placeholder="Тел..." type="text"
+                      class="form-control form-input">
+                    </div>
+                    <div class="col-xs-12">
+                      <button type="submit">Відправити дані</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+      <!-- Модальне вікно безкоштовної консультації -->
+          <div class="modal fade" id="get_help_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>              
+                </div>
+                <div class="modal-body text-center">
+                 <div class="row">
+                  <div class="header_modal">
+                    <h4>Безкоштовна консультація<br><span>Ми передзвонимо вам незабаром!</span></h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <form action="send.php" method="post"> 
+                    <div class="col-xs-12">
+                    <input type="hidden" name="what" value="Безкоштовна консультація">                   
+                      <input name="name" required placeholder="Ім'я..." type="text"
+                      class="form-control form-input">
+                    </div>
+                    <div class="col-xs-12">
+                      <input name="phone" id="phone-8" required placeholder="Тел..." type="text"
+                      class="form-control form-input">
+                    </div>
+                    <div class="col-xs-12">
+                      <button type="submit">Відправити дані</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+      <!-- Модальне вікно запитання -->
+          <div class="modal fade" id="send_question_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>              
+                </div>
+                <div class="modal-body text-center">
+                 <div class="row">
+                  <div class="header_modal">
+                    <h4>Задати запитання</h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <form action="send.php" method="post"> 
+                    <div class="col-xs-12">
+                    <input type="hidden" name="what" value="Задати запитання">                   
+                      <input name="name" required placeholder="Ім'я..." type="text"
+                      class="form-control form-input">
+                    </div>
+                    <div class="col-xs-12">
+                      <input name="phone" id="phone-9" required placeholder="Тел..." type="text"
+                      class="form-control form-input">
+                    </div>
+                    <div class="col-xs-12">
+                      <textarea name="question" required placeholder="Задати запитання" id="" cols="34" rows="10"></textarea>
+                    </div>
+                    <div class="col-xs-12">
+                      <button type="submit">Задати</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+      <!-- Модальне вікно політики конфіденційності -->
+          <div class="modal fade" id="policy_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">                
+                <div class="modal-body">                 
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="article">
+                        <h2>Угода конфіденційності</h2>
+                        <ul>
+                            <li>Ця Угода є договором приєднання, використання Користувачем Сервісів свідчить про приєднання Користувача до даної Угоди повністю та підтверджує його згоду з наведеними нижче умовами.</li>
+                            <li>Під час користування Користувачем Сервісами Володілець здійснює збір та обробку даних Користувача, а саме:
+                                <table cellpadding="0" cellspacing="0" border="0" style="margin-top:5px;">
+                                    <tbody><tr valign="top">
+                                        <td style="padding-right:10px;">2.1.</td>
+                                        <td style="padding-bottom:5px;">даних, що надаються Користувачем як при заповненні реєстраційних форм Сервісів, так і у процесі користування Сервісами;</td>
+                                    </tr>
+                                    <tr valign="top">
+                                        <td style="padding-right:10px;">2.2.</td>
+                                        <td style="padding-bottom:5px;">файли cookie;</td>
+                                    </tr>
+                                    <tr valign="top">
+                                        <td style="padding-right:10px;">2.3.</td>
+                                        <td style="padding-bottom:5px;">ір-адреси;</td>
+                                    </tr>
+                                    <tr valign="top">
+                                        <td style="padding-right:10px;">2.4.</td>
+                                        <td style="padding-bottom:5px;">параметри та налаштування інтернет-браузерів.</td>
+                                    </tr>
+                                </tbody></table>
+                            </li>
+                            <li>Володілець включає дані Користувача до бази персональних даних інтернет-користувачів з моменту, коли Користувач вперше починає користуватися Сервісом, а також постійно увесь період, протягом якого Користувач користується послугами Сервісів. Строк зберігання даних становить період, протягом якого Користувач користується послугами Сервісів, а також три наступних роки після закриття аккаунту на відповідному Сервісі та закінчення користування Користувачем послугами Сервісів.</li>
+                            <li>Володілець здійснює обробку персональних даних Користувача будь-якими способами з метою належного надання Користувачу послуг (ідентифікація, аутентифікація, авторизація, відновлення паролю, надсилання інформаційних матеріалів за підпискою Користувача, відповідей на запити та листи Користувача, а також для інших дій, що час від часу необхідні для належного надання послуг Сервісів).</li>
+                            <li>Володілець використовує знеособлені дані для таргетингу рекламних та/або інформаційних матеріалів за віком, статтю, іншими даними; для проведення статистичних досліджень; будь-якими іншими способами.</li>
+                            <li>Володілець має право передати персональні дані, базу персональних даних, до якої включені персональні дані Користувача, повністю або частково третім особам без повідомлення про це Користувача у наступних випадках: особам, у ведення, володіння або власність яких передано Сервіс; особам, що є пов’язаними/афілійованими з Володільцем; новому власнику та/або Володільцю Сервісу для оброблення з метою, передбаченою даною Угодою; іншим користувачам Сервісів (як фізичним, так і юридичним особам), якщо на Сервісі передбачено відповідний функціонал.</li>
+                            <li>Під час користування Користувачем Сервісами, на інтернет-сторінках Сервісів можуть бути присутні коди інтернет-ресурсів третіх осіб, у результаті чого такі треті особи отримують дані, зазначені у пунктах 2.2, 2.3 та 2.4 даної Угоди. Такими інтернет-ресурсами третіх осіб є:
+                                <table cellpadding="0" cellspacing="0" border="0" style="margin-top:5px;">
+                                    <tbody><tr valign="top">
+                                        <td style="padding-right:10px;">7.1.</td>
+                                        <td style="padding-bottom:5px;">системи зі збору статистики відвідувань Сервісів (наприклад, лічильники LiveInternet, Google Analytics тощо);</td>
+                                    </tr>
+                                    <tr valign="top">
+                                        <td style="padding-right:10px;">7.2.</td>
+                                        <td style="padding-bottom:5px;">соціальні-плагіни (блоки) соціальних мереж (наприклад, Facebook тощо);</td>
+                                    </tr>
+                                    <tr valign="top">
+                                        <td style="padding-right:10px;">7.3.</td>
+                                        <td style="padding-bottom:5px;">системи банеропоказів (наприклад, AdRiver тощо);</td>
+                                    </tr>
+                                    <tr valign="top">
+                                        <td style="padding-right:10px;">7.4.</td>
+                                        <td style="padding-bottom:5px;">інші ресурси.</td>
+                                    </tr>
+                                </tbody></table>
+                            </li>
+                            <li>Користувач має усі права щодо захисту його персональних даних, які передбачено чинним законодавством України, зокрема, Законом України «Про захист персональних даних».</li>
+                            <li>Оброблення персональних даних здійснюється у дата-центрах, де розміщується обладнання, що забезпечує функціонування Сервісів. Володілець приймає усіх передбачених законодавством заходів для захисту персональних даних Користувача, зокрема, оброблення даних здійснюється на обладнанні, що міститься у охоронюваних приміщеннях із обмеженим доступом.</li>
+                            <li>Володілець має право змінювати умови даної Угоди в односторонньому порядку. У цьому випадку усі зміни будуть опубліковані за адресою <a href="//www.ukr.net/terms/">www.ukr.net/terms/</a> і будуть обов'язковими для Користувача через 10 днів від дня такої публікації.</li>
+                        </ul>
+                    </div>
+                  </div> 
+                  <div class="col-md-12">
+                    <button type="button" data-dismiss="modal" >Закрити</button>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.nicescroll.min.js"></script>
+     <script src="js/wow.min.js"></script>
+      <script>
+      new WOW().init();
+      </script>
+      <script>
+        $(document).ready(
+        function() {
+          $("html").niceScroll({cursorcolor:"#000"});
+        }
+        );
+      </script>
+
+
+      <script>
+        var h_hght = 0; // высота шапки
+        var h_mrg = 0;    // отступ когда шапка уже не видна
+
+        if(window.innerWidth < 768){
+          h_hght = 0;
+        }
+                         
+        $(function(){
+         
+            var elem = $('#top_nav');
+            var top = $(this).scrollTop();
+             
+            if(top > h_hght){
+                elem.css('top', h_mrg);
+            }           
+             
+            $(window).scroll(function(){
+                top = $(this).scrollTop();
+                 
+                if (top+h_mrg < h_hght) {
+                    elem.css('top', (h_hght-top));
+                } else {
+                    elem.css('top', h_mrg);
+                }
+            });         
+        });
+      </script>
+
+      <script>
+        $(document).ready(function(){
+          $("#top_nav").on("click","a", function (event) {
+            //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();
+
+            //забираем идентификатор бока с атрибута href
+            var id  = $(this).attr('href'),
+
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+              top = $(id).offset().top;
+            
+            //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 1000);
+          });
+        });
+      </script>
+
+      <script>
+        $(document).ready(function(){
+          $(".main_buttons").on("click", "a", function (event) {
+            //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();
+
+            //забираем идентификатор бока с атрибута href
+            var id  = $(this).attr('href'),
+
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+              top = $(id).offset().top;
+            
+            //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 1000);
+          });
+        });
+      </script>
+
+      <link rel="stylesheet" href="css/animate.css">
+
+      <!-- fotorama.css & fotorama.js. -->
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+
+    </body>
+    </html>

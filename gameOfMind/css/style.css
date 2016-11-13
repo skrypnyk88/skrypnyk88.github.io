@@ -1,0 +1,973 @@
+/*============    Main    ===========*/
+.bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.med {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.light {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+body,
+html {
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+button:focus,
+input:focus {
+  outline: none;
+}
+section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+/*============    Header    ===========*/
+header {
+  margin-top: 20px;
+}
+header img {
+  height: 75;
+  width: 75px;
+}
+header .header_info {
+  padding-top: 6px;
+}
+header .header_info span {
+  font-size: 15px;
+}
+header .header_info_city {
+  float: left;
+}
+header .header_info_city i {
+  font-size: 19px;
+}
+header .header_info_date {
+  float: right;
+}
+header .header_info_date i {
+  font-size: 18px;
+}
+header .header_phones a {
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #333333;
+  font-size: 24px;
+}
+header .header_phones a span {
+  color: #125e94;
+}
+/*============    Головний екран    ===========*/
+section#main {
+  background: #fcfcfc url(../img/main_brain.jpg) no-repeat center right 45%;
+  background-size: 160px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+section#main .main_info {
+  margin-top: 75px;
+}
+section#main .main_info p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+section#main .main_info h1 {
+  font-size: 75px;
+  color: #125e94;
+  text-transform: uppercase;
+  padding-left: 0;
+  margin-top: 0;
+}
+section#main .main_info ul {
+  padding-left: 0;
+}
+section#main .main_info ul li {
+  list-style: none;
+  line-height: 2;
+  font-size: 17px;
+}
+section#main .main_form {
+  border-top: 5px solid #125e94;
+  background: #f8f8f8;
+}
+section#main .main_form p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 30px;
+}
+section#main .main_form input {
+  background: transparent;
+  border: none;
+  padding-left: 25px;
+  border-bottom: 1px solid #333333;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  opacity: 0.5;
+}
+section#main .main_form input:hover {
+  opacity: 1;
+}
+section#main .main_form #input-name {
+  background: url(../img/user.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+section#main .main_form #input-phone {
+  background: url(../img/phone.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+section#main .main_form #input-email {
+  background: url(../img/email.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+section#main .main_form button {
+  background-color: #e7af10;
+  border: none;
+  margin-top: 30px;
+  padding: 20px 30px;
+  font-size: 16px;
+  display: block;
+  border-radius: 50px;
+  color: #ffffff;
+  width: 100%;
+}
+section#main .main_form button:hover {
+  background-color: #f5d612;
+}
+section#main .main_form form {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+section#main .main_form form p {
+  font-size: 13px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+section#main .main_form form p span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #125e94;
+  font-size: 17px;
+}
+/*============    Для кого    ===========*/
+section#for_whom h2 {
+  margin-bottom: 75px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+section#for_whom h3 {
+  font-size: 18px;
+  color: #125e94;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+section#for_whom img {
+  height: 70px;
+  width: 70px;
+}
+section#for_whom .whom_ul {
+  margin-left: 16px;
+}
+section#for_whom .whom_ul li {
+  line-height: 27px;
+}
+/*============    Отриманий досвід    ===========*/
+section#experience {
+  background: #125e94;
+  color: #ffffff;
+}
+section#experience h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+section#experience h1 {
+  margin-top: -62px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+section#experience h3 {
+  padding-top: 20px;
+}
+section#experience .experience_form {
+  background: #f8f8f8;
+  margin-top: 90px;
+}
+section#experience .experience_form h4 {
+  color: #333333;
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+section#experience .experience_form input {
+  color: #333333;
+  background: transparent;
+  border: none;
+  padding-left: 25px;
+  border-bottom: 1px solid #333333;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  opacity: 0.5;
+}
+section#experience .experience_form input:hover {
+  opacity: 1;
+}
+section#experience .experience_form #experience_input-name {
+  background: url(../img/user.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+section#experience .experience_form #experience_input-phone {
+  background: url(../img/phone.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+section#experience .experience_form #experience_input-email {
+  background: url(../img/email.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+section#experience .experience_form button {
+  background-color: #e7af10;
+  border: none;
+  padding: 20px 30px;
+  font-size: 16px;
+  display: block;
+  border-radius: 50px;
+  color: #ffffff;
+  width: 100%;
+}
+section#experience .experience_form button:hover {
+  background-color: #f5d612;
+}
+section#experience .experience_form .experience_input {
+  margin-top: 28px;
+  padding-bottom: 45px;
+}
+section#experience .what_get h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding-top: 60px;
+}
+section#experience .what_get img {
+  padding-bottom: 20px;
+}
+/*============    Спікери    ===========*/
+section#speakers {
+  margin-bottom: 15px;
+}
+section#speakers h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+section#speakers h3 {
+  padding-left: 11px;
+  color: #125e94;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+section#speakers img {
+  height: 170px;
+  width: 170px;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+section#speakers ul {
+  padding-bottom: 20px;
+}
+section#speakers ul li {
+  float: left;
+}
+/*============    Відгуки    ===========*/
+section#feedback h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+section#feedback h4 {
+  color: #125e94;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+section#feedback p {
+  padding-top: 20px;
+}
+section#feedback .feedback_form {
+  margin-top: 90px;
+}
+section#feedback .feedback_form h4 {
+  color: #333333;
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+section#feedback .feedback_form input {
+  color: #333333;
+  background: transparent;
+  border: none;
+  padding-left: 25px;
+  border-bottom: 1px solid #333333;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  opacity: 0.5;
+}
+section#feedback .feedback_form input:hover {
+  opacity: 1;
+}
+section#feedback .feedback_form #feedback_input-name {
+  background: url(../img/user.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+section#feedback .feedback_form #feedback_input-phone {
+  background: url(../img/phone.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+section#feedback .feedback_form #feedback_input-email {
+  background: url(../img/email.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+section#feedback .feedback_form button {
+  background-color: #e7af10;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  display: block;
+  border-radius: 50px;
+  color: #ffffff;
+  width: 100%;
+}
+section#feedback .feedback_form button:hover {
+  background-color: #f5d612;
+}
+section#feedback .feedback_form .feedback_input {
+  margin-top: 28px;
+  padding-bottom: 45px;
+}
+/*============    Місце зустрічі    ===========*/
+section#place {
+  height: 450px;
+  background: url("../img/place-fone.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+section#place .place_div {
+  background-color: #ffffff;
+  height: 150
+			px;
+}
+section#place span {
+  line-height: 40px;
+}
+section#place i {
+  color: #125e94;
+}
+/*============    Карта    ===========*/
+section#canvas1 {
+  padding-top: 0;
+  padding-bottom: 0;
+  widows: 100%;
+  height: 470px;
+}
+section#canvas1 .scrolloff {
+  pointer-events: none;
+}
+/*============    Футер    ===========*/
+footer {
+  margin-top: 180px;
+}
+footer h1 {
+  font-size: 35px;
+  color: #125e94;
+  padding-top: 80px;
+  text-transform: uppercase;
+}
+footer .footer_form {
+  border-top: 5px solid #125e94;
+  background: #f8f8f8;
+}
+footer .footer_form p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 30px;
+}
+footer .footer_form input {
+  background: transparent;
+  border: none;
+  padding-left: 25px;
+  border-bottom: 1px solid #333333;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  opacity: 0.5;
+}
+footer .footer_form input:hover {
+  opacity: 1;
+}
+footer .footer_form #footer_input-name {
+  background: url(../img/user.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+footer .footer_form #footer_input-phone {
+  background: url(../img/phone.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+footer .footer_form #footer_input-email {
+  background: url(../img/email.png) no-repeat center left 1%;
+  background-size: 15px;
+}
+footer .footer_form button {
+  background-color: #e7af10;
+  border: none;
+  margin-top: 30px;
+  padding: 20px 30px;
+  font-size: 16px;
+  display: block;
+  border-radius: 50px;
+  color: #ffffff;
+  width: 100%;
+}
+footer .footer_form button:hover {
+  background-color: #f5d612;
+}
+footer .footer_form form {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+footer .footer_form form p {
+  font-size: 13px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+footer .footer_form form p span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #125e94;
+  font-size: 17px;
+}
+footer .footer_info {
+  padding-top: 25px;
+}
+footer .footer_info .footer_address {
+  margin-top: 10px;
+}
+footer .footer_info .footer_phones a {
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #333333;
+  font-size: 24px;
+}
+footer .footer_info .footer_phones a span {
+  color: #125e94;
+}
+footer .footer_info .footer_info_city {
+  padding-right: 50px;
+}
+footer .footer_info .footer_phone_life {
+  padding-right: 20px;
+}
+footer .footer_info .footer_phones {
+  padding-bottom: 15px;
+}
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	Адаптив    ===========*/
+@media (min-width: 0px) and (max-width: 320px) {
+  header .header_info_city {
+    float: right;
+  }
+  header .header_info {
+    line-height: 24px;
+  }
+  header .header_phones a {
+    font-size: 17px;
+  }
+  section#main {
+    background: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0px;
+  }
+  section#main .main_info p {
+    font-size: 20px;
+  }
+  section#main .main_info h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  section#main .main_info ul {
+    padding-bottom: 15px;
+  }
+  section#main .main_info ul li {
+    line-height: 1.5;
+    font-size: 13px;
+  }
+  section#main .main_form p {
+    padding-bottom: 0;
+  }
+  section#for_whom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  section#for_whom h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  section#for_whom img {
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  section#for_whom .list {
+    padding-left: 20px;
+  }
+  section#experience {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  section#experience h2 {
+    font-size: 21px;
+    padding-bottom: 20px;
+  }
+  section#experience h3 {
+    font-size: 20px;
+    padding-top: 3px;
+  }
+  section#experience p {
+    margin-bottom: 25px;
+  }
+  section#experience .experience_form {
+    margin-top: 17px;
+  }
+  section#experience .experience_form .experience_input {
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
+  section#experience .what_get img {
+    padding-bottom: 2px;
+  }
+  section#experience .what_get h2 {
+    padding-top: 10px;
+  }
+  section#experience .what_get p {
+    margin-bottom: 2px;
+  }
+  section#speakers {
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  section#speakers h2 {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
+  section#feedback {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+  section#feedback h2 {
+    font-size: 21px;
+    padding-bottom: 5px;
+  }
+  section#feedback p {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  section#feedback .feedback_form {
+    margin-top: 0px;
+  }
+  section#feedback .feedback_form .feedback_input {
+    margin-top: 10px;
+    padding-bottom: 0px;
+  }
+  footer h1 {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  footer p {
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 13px;
+  }
+  footer .footer_info .footer_info_city {
+    padding-right: 22%;
+  }
+  footer .footer_info .footer_phone_life {
+    padding-right: 13%;
+  }
+  footer .footer_info span {
+    font-size: 10px;
+  }
+  footer .footer_info .footer_phones {
+    padding-bottom: 8px;
+  }
+  footer .footer_info .footer_phones a {
+    font-size: 14px;
+  }
+  footer .footer_info .footer_phones span {
+    font-size: 14px;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  header .header_info_city {
+    float: right;
+  }
+  header .header_info {
+    line-height: 24px;
+  }
+  header .header_phones a {
+    font-size: 19px;
+  }
+  section#main {
+    background: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0px;
+  }
+  section#main .main_info p {
+    font-size: 20px;
+  }
+  section#main .main_info h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  section#main .main_info ul {
+    padding-bottom: 15px;
+  }
+  section#main .main_info ul li {
+    line-height: 1.5;
+    font-size: 13px;
+  }
+  section#main .main_form p {
+    padding-bottom: 0;
+  }
+  section#for_whom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  section#for_whom h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  section#for_whom img {
+    margin-top: 20px;
+  }
+  section#experience {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  section#experience h2 {
+    font-size: 21px;
+    padding-bottom: 20px;
+  }
+  section#experience h3 {
+    font-size: 20px;
+    padding-top: 3px;
+  }
+  section#experience p {
+    margin-bottom: 25px;
+  }
+  section#experience .experience_form {
+    margin-top: 17px;
+  }
+  section#experience .experience_form .experience_input {
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
+  section#experience .what_get img {
+    padding-bottom: 2px;
+  }
+  section#experience .what_get h2 {
+    padding-top: 10px;
+  }
+  section#experience .what_get p {
+    margin-bottom: 2px;
+  }
+  section#speakers {
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  section#speakers h2 {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
+  section#feedback {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+  section#feedback h2 {
+    font-size: 21px;
+    padding-bottom: 5px;
+  }
+  section#feedback p {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  section#feedback .feedback_form {
+    margin-top: 0px;
+  }
+  section#feedback .feedback_form .feedback_input {
+    margin-top: 10px;
+    padding-bottom: 0px;
+  }
+  footer h1 {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  footer p {
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 13px;
+  }
+  footer .footer_info .footer_info_city {
+    padding-right: 22%;
+  }
+  footer .footer_info .footer_phone_kyivstar {
+    padding-right: 13%;
+  }
+  footer .footer_info span {
+    font-size: 10px;
+  }
+  footer .footer_info .footer_phones {
+    padding-bottom: 8px;
+  }
+  footer .footer_info .footer_phones a {
+    font-size: 14px;
+    float: none;
+  }
+  footer .footer_info .footer_phones span {
+    font-size: 14px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  header .header_info_city {
+    float: right;
+    padding-left: 15px;
+  }
+  header .header_info {
+    line-height: 24px;
+  }
+  header .header_phones a {
+    font-size: 17px;
+  }
+  header .header_phones .life {
+    padding-right: 15px;
+  }
+  section#main {
+    background: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0px;
+  }
+  section#main .main_info p {
+    font-size: 24px;
+  }
+  section#main .main_info h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  section#main .main_info ul {
+    padding-bottom: 15px;
+  }
+  section#main .main_info ul li {
+    line-height: 1.5;
+    font-size: 13px;
+  }
+  section#main .main_form {
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 20px;
+  }
+  section#main .main_form p {
+    padding-bottom: 20px;
+  }
+  section#for_whom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  section#for_whom h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  section#for_whom img {
+    margin-top: 20px;
+    float: right;
+  }
+  section#experience {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  section#experience h2 {
+    font-size: 21px;
+    padding-bottom: 20px;
+  }
+  section#experience h3 {
+    font-size: 20px;
+    padding-top: 3px;
+  }
+  section#experience p {
+    margin-bottom: 25px;
+  }
+  section#experience .experience_form {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 17px;
+  }
+  section#experience .experience_form .experience_input {
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
+  section#experience .what_get img {
+    padding-bottom: 2px;
+  }
+  section#experience .what_get p {
+    margin-bottom: 2px;
+  }
+  section#speakers {
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  section#speakers h2 {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
+  section#feedback {
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+  section#feedback h2 {
+    font-size: 21px;
+    padding-bottom: 5px;
+  }
+  section#feedback p {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  section#feedback .feedback_form {
+    margin-top: 0px;
+  }
+  section#feedback .feedback_form .feedback_input {
+    margin-top: 10px;
+    padding-bottom: 0px;
+  }
+  footer h1 {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  footer p {
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 13px;
+  }
+  footer .footer_form {
+    width: 60%;
+    margin-left: 20%;
+  }
+  footer .footer_info .footer_info_city {
+    padding-right: 22%;
+  }
+  footer .footer_info .footer_phone_kyivstar {
+    padding-right: 13%;
+  }
+  footer .footer_info span {
+    font-size: 10px;
+  }
+  footer .footer_info .footer_phones {
+    padding-bottom: 8px;
+  }
+  footer .footer_info .footer_phones a {
+    font-size: 14px;
+    float: none;
+  }
+  footer .footer_info .footer_phones span {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section#main {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background: none;
+  }
+  section#main .main_info ul li {
+    font-size: 15px;
+  }
+  section#for_whom {
+    padding-top: 20px;
+  }
+  section#for_whom h2 {
+    font-size: 26px;
+  }
+  section#for_whom .list {
+    margin-left: 0;
+  }
+  section#experience .experience_form .sen_form {
+    margin-left: 25%;
+  }
+  section#experience .experience_form h4 {
+    text-align: center;
+    font-size: 19px;
+  }
+  section#experience .experience_form .experience_input {
+    margin-top: 14px;
+    padding-bottom: 9px;
+  }
+  section#speakers {
+    padding-top: 30px;
+  }
+  section#feedback {
+    padding-top: 0;
+  }
+  section#feedback .feedback_form {
+    padding-bottom: 30px;
+  }
+  section#feedback .feedback_form .feedback_input {
+    margin-top: 17px;
+    padding-bottom: 0px;
+  }
+  footer h1 {
+    font-size: 31px;
+    padding-top: 0px;
+    padding-bottom: 28px;
+  }
+  footer .footer_address {
+    font-size: 13px;
+  }
+  footer .footer_info .footer_phones a {
+    font-size: 18px;
+    padding-top: 7px;
+  }
+}

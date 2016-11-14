@@ -1,3 +1,4 @@
+/*MAIN*/
 @font-face {
   font-family: "RalewayBold";
   src: url("../fonts/RalewayBold/RalewayBold.eot");
@@ -11,6 +12,12 @@
   src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
+}
+.med {
+  font-family: "RalewayRegular", sans-serif;
+}
+.bold {
+  font-family: "RalewayBold", sans-serif;
 }
 body {
   font-family: "RalewayRegular", sans-serif;
@@ -66,7 +73,7 @@ header {
   -webkit-background-size: cover;
   background-size: cover;
 }
-nav {
+header nav {
   height: 94px;
   line-height: 94px;
   position: absolute;
@@ -75,43 +82,43 @@ nav {
   width: 100%;
   z-index: 999;
 }
-.menu {
+header .menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.menu li {
+header .menu li {
   display: inline-block;
   padding: 0 30px;
 }
-.menu li a {
+header .menu li a {
   color: #fff;
   text-transform: uppercase;
-  font-family: 'RalewayBold', sans-serif;
+  font-family: "RalewayBold", sans-serif;
 }
-.menu li a:hover,
-.menu li a:focus {
+header .menu li a:hover,
+header .menu li a:focus {
   text-decoration: none;
   color: #e1e1e1;
 }
-.top_line {
+header .menu li .logo {
+  padding-top: 35px;
+}
+header .top_line {
   height: 1px;
   background-color: #e1e1e1;
 }
-.logo {
-  padding-top: 35px;
-}
-.title_block {
+header .title_block {
   color: #fff;
   text-align: center;
   margin-top: 200px;
 }
-.title_block h1 {
+header .title_block h1 {
   font-size: 50px;
   font-family: 'RalewayBold', sans-serif;
   margin-bottom: 30px;
 }
-.title_block p {
+header .title_block p {
   font-size: 18px;
   margin-bottom: 50px;
 }
@@ -119,27 +126,27 @@ nav {
 .params_s {
   padding: 95px 0;
 }
-.param_block {
+.params_s .param_block {
   text-align: center;
   margin-bottom: 50px;
 }
-.param_block i {
+.params_s .param_block i {
   font-size: 70px;
   color: #e84545;
 }
-.param_block h3 {
+.params_s .param_block h3 {
   text-transform: uppercase;
   font-family: "RalewayBold", sans-serif;
   font-size: 18px;
 }
-.param_block p {
+.params_s .param_block p {
   font-size: 14px;
 }
 /*WORKS SECTION*/
 .work_block {
   position: relative;
 }
-.image_wrap {
+.work_block .image_wrap {
   position: absolute;
   top: 0;
   left: 0;
@@ -156,7 +163,7 @@ nav {
 .work_block:hover .image_wrap {
   opacity: 1;
 }
-.work_descr {
+.work_block .work_descr {
   color: #fff;
   text-align: center;
   margin: auto;
@@ -166,16 +173,16 @@ nav {
   padding: 95px 0;
   color: #6c7279;
 }
-.team_item h4 {
+.team_s .team_item h4 {
   font-family: "RalewayBold", sans-serif;
   color: #000;
 }
-.team_item > span {
+.team_s .team_item span {
   text-transform: uppercase;
   color: #e84545;
   font-size: 14px;
 }
-.team_item p {
+.team_s .team_item p {
   font-size: 14px;
   padding: 10px 0;
 }
@@ -183,13 +190,13 @@ nav {
 .download {
   padding: 90px 0;
 }
-.download_block {
+.download .download_block {
   text-align: center;
 }
-.download_block h5 {
+.download .download_block h5 {
   font-size: 24px;
 }
-.download_block p {
+.download .download_block p {
   font-family: "RalewayBold", sans-serif;
   text-transform: uppercase;
 }
@@ -198,16 +205,16 @@ nav {
   padding: 70px 0;
   background-color: #3a3e64;
 }
-.footer_item {
+.main_footer .footer_item {
   text-align: center;
   margin-bottom: 20px;
 }
-.footer_item h5 {
+.main_footer .footer_item h5 {
   font-family: "RalewayBold", sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
-.footer_item p {
+.main_footer .footer_item p {
   font-size: 14px;
   color: #9d9fb2;
 }
@@ -216,7 +223,7 @@ nav {
   text-align: center;
   padding: 30px 0;
 }
-.copy_txt {
+.copyright_block .copy_txt {
   color: #9d9fb2;
 }
 /*MODALS*/

@@ -272,31 +272,31 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	
-	/*Disable Animation on Mobile Devices*/
-	.animated {
-		/*CSS transitions*/
-		-o-transition-property: none !important;
-		-moz-transition-property: none !important;
-		-ms-transition-property: none !important;
-		-webkit-transition-property: none !important;
-		transition-property: none !important;
-		/*CSS transforms*/
-		-o-transform: none !important;
-		-moz-transform: none !important;
-		-ms-transform: none !important;
-		-webkit-transform: none !important;
-		transform: none !important;
-		/*CSS animations*/
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
+	@media only screen and (max-width : 768px) {
+		
+		/*Disable Animation on Mobile Devices*/
+		.animated {
+			/*CSS transitions*/
+			-o-transition-property: none !important;
+			-moz-transition-property: none !important;
+			-ms-transition-property: none !important;
+			-webkit-transition-property: none !important;
+			transition-property: none !important;
+			/*CSS transforms*/
+			-o-transform: none !important;
+			-moz-transform: none !important;
+			-ms-transform: none !important;
+			-webkit-transform: none !important;
+			transform: none !important;
+			/*CSS animations*/
+			-webkit-animation: none !important;
+			-moz-animation: none !important;
+			-o-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+		}
 
-	nav{
+		nav{
 		height: 60px;
 		line-height: 60px;
 		background-color: #2a2e48;
@@ -337,6 +337,13 @@
 	.title_block{
 		margin-top: 130px;
 	}
+
+	.title_block h1{
+		font-size: 30px;
+	}
+	.title_block p{
+		font-size: 14px;
+	}
 	.team_item{
 		margin-bottom: 30px;
 	}
@@ -349,15 +356,15 @@
 	#dlForm{
 		width: 100%;
 	}
-	
-
-
-
+	.call_btn{
+		top: 8px;
+		right: 60px;
+	}
 }
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
 	nav{
 		height: 60px;
 		line-height: 60px;

@@ -305,6 +305,12 @@ header .title_block p {
   .title_block {
     margin-top: 130px;
   }
+  .title_block h1 {
+    font-size: 30px;
+  }
+  .title_block p {
+    font-size: 14px;
+  }
   .team_item {
     margin-bottom: 30px;
   }
@@ -316,6 +322,10 @@ header .title_block p {
   }
   #dlForm {
     width: 100%;
+  }
+  .call_btn {
+    top: 8px;
+    right: 60px;
   }
 }
 /* Extra Small Devices, Phones */

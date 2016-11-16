@@ -12,7 +12,7 @@
 
 <body>
 	<header>
-		<nav>
+		<nav id="main">
 			<div class="container">
 				<div class="row">
 					<div class="navbar-header">
@@ -26,12 +26,12 @@
 					</div>
 
 					<div class="collapse navbar-collapse navbar-right" id="top_menu">
-						<ul class="menu">
-							<li><a href="#">link</a></li>
-							<li><a href="#">link</a></li>
-							<li><a href="#">link</a></li>
-							<li><a href="#">link</a></li>
-							<li><a href="#">link</a></li>
+						<ul id="top_nav" class="menu">
+							<li><a href="#main">main</a></li>
+							<li><a href="#tools">tools</a></li>
+							<li><a href="#portfolio">portfolio</a></li>
+							<li><a href="#our_team">our team</a></li>
+							<li><a href="#contact">contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 		</div>
 	</header>
 
-	<section class="params_s">
+	<section id="tools" class="params_s">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
@@ -101,7 +101,7 @@
 		</div>
 	</section>
 
-	<section class="works_s">
+	<section id="portfolio" class="works_s">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3 col-sm-6 p0">
@@ -196,7 +196,7 @@
 		</div>
 	</section>
 	
-	<section class="team_s">
+	<section id="our_team" class="team_s">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-6">
@@ -279,7 +279,7 @@
 		</div>
 	</section>
 
-	<section class="download">
+	<section id="contact" class="download">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
@@ -364,6 +364,23 @@
 	<script src="libs/jquery/jquery-2.1.4.min.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/common.js"></script>
+	<script>
+        $(document).ready(function(){
+          $("#top_nav").on("click","a", function (event) {
+            //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();
+
+            //забираем идентификатор бока с атрибута href
+            var id  = $(this).attr('href'),
+
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+              top = $(id).offset().top;
+            
+            //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 1000);
+          });
+        });
+      </script>
 	
 </body>
 </html>
